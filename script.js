@@ -1,5 +1,5 @@
 /* =========================================================
-   Ngupi Yuk, Aliza! — logika interaksi
+   Ngupi Yuk, Saya Diva June! — logika interaksi
    Bagian: konfigurasi · util · dekorasi · navigasi halaman ·
            tombol NO yang kabur · kalender · WhatsApp · confetti
    ========================================================= */
@@ -38,12 +38,12 @@
   const SHAPES = {
     sparkle: '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 0C13 7 17 11 24 12 17 13 13 17 12 24 11 17 7 13 0 12 7 11 11 7 12 0Z"/></svg>',
     star: '<svg viewBox="0 0 24 24"><polygon fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linejoin="round" points="12,2 14.8,8.6 22,9.2 16.5,13.9 18.2,21 12,17.2 5.8,21 7.5,13.9 2,9.2 9.2,8.6"/></svg>',
-    bubble: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="rgba(255,255,255,.55)" stroke="currentColor" stroke-width="2"/><path d="M7 10a5.5 5.5 0 0 1 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
+    bubble: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="rgba(255, 255, 255,.55)" stroke="currentColor" stroke-width="2"/><path d="M7 10a5.5 5.5 0 0 1 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
     dot: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="currentColor"/></svg>',
     plus: '<svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="4" stroke-linecap="round" fill="none"/></svg>',
     squiggle: '<svg viewBox="0 0 34 24"><path d="M2 12q4-8 8 0t8 0 8 0" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" fill="none"/></svg>'
   };
-  const PALETTE = ['#ffb5d2', '#ff8cba', '#ffd3e4', '#f9a8cb', '#ffc2dc', '#f2589a'];
+  const PALETTE = ['#b5d8ff', '#8cc2ff', '#d3e8ff', '#a8cef9', '#c2deff', '#58a0f2'];
 
   function buildDecorations() {
     const deco = $('#deco');
@@ -277,7 +277,7 @@
   }
 
   /* =========================================================
-     Kalender kustom (pink) — hanya 2026, tanpa tanggal lampau
+     Kalender kustom (biru) — hanya 2026, tanpa tanggal lampau
      ========================================================= */
   const MONTHS = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli',
                   'Agustus', 'September', 'Oktober', 'November', 'Desember'];
@@ -377,7 +377,7 @@
   function buildWaUrl(dateStr) {
     const text =
       'Halo Pemuda Babelan! 👋\n\n' +
-      'Aku Aliza, mau konfirmasi ajakan ngupi di Bekasi.\n\n' +
+      'Saya Diva June, mau konfirmasi ajakan ngupi di Bekasi.\n\n' +
       `Tanggal pilihan: ${dateStr}\n\n` +
       'Gas ngupi! ☕';
     return `https://wa.me/${CONFIG.waNumber}?text=${encodeURIComponent(text)}`;

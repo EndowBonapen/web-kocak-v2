@@ -1,19 +1,19 @@
 /* =========================================================
-   Ngupi Yuk, Aliza! — pink aesthetic
+   Ngupi Yuk, Saya Diva June! — blue aesthetic
    ========================================================= */
 
 :root {
-  --pink-25:  #fffafc;
-  --pink-50:  #fff4f8;
-  --pink-100: #ffe8f1;
-  --pink-200: #ffd3e4;
-  --pink-300: #ffb5d2;
-  --pink-400: #ff8cba;
-  --pink-500: #f2589a;
-  --pink-600: #de3a7f;
-  --pink-700: #b82565;
-  --ink:      #6a2a4b;
-  --ink-soft: #9b4d75;
+  --blue-25:  #fafcff;
+  --blue-50:  #f4f9ff;
+  --blue-100: #e8f3ff;
+  --blue-200: #d3e8ff;
+  --blue-300: #b5d8ff;
+  --blue-400: #8cc2ff;
+  --blue-500: #58a0f2;
+  --blue-600: #3a87de;
+  --blue-700: #256ab8;
+  --ink:      #2a486a;
+  --ink-soft: #4d719b;
 
   --font-display: "Fredoka", ui-rounded, "SF Pro Rounded", "Trebuchet MS", system-ui, sans-serif;
   --font-body:    "Nunito", ui-rounded, "SF Pro Rounded", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -39,11 +39,11 @@ body {
   font-weight: 700;
   color: var(--ink);
   background:
-    radial-gradient(circle at 12% 8%,  var(--pink-200) 0, transparent 38%),
-    radial-gradient(circle at 92% 18%, #ffe3ef 0, transparent 34%),
-    radial-gradient(circle at 80% 92%, var(--pink-200) 0, transparent 40%),
-    radial-gradient(circle at 8% 88%,  #ffe3ef 0, transparent 36%),
-    var(--pink-50);
+    radial-gradient(circle at 12% 8%,  var(--blue-200) 0, transparent 38%),
+    radial-gradient(circle at 92% 18%, #e3f0ff 0, transparent 34%),
+    radial-gradient(circle at 80% 92%, var(--blue-200) 0, transparent 40%),
+    radial-gradient(circle at 8% 88%,  #e3f0ff 0, transparent 36%),
+    var(--blue-50);
   background-attachment: fixed;
   -webkit-tap-highlight-color: transparent;
 }
@@ -55,7 +55,7 @@ body::before {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background-image: radial-gradient(rgba(242, 88, 154, .13) 1.6px, transparent 1.7px);
+  background-image: radial-gradient(rgba(88, 160, 242, .13) 1.6px, transparent 1.7px);
   background-size: 26px 26px;
 }
 
@@ -79,11 +79,11 @@ button { cursor: pointer; }
   padding: clamp(24px, 5vw, 44px) clamp(18px, 5vw, 40px);
   text-align: center;
   background: rgba(255, 255, 255, .86);
-  border: 3px solid var(--pink-100);
+  border: 3px solid var(--blue-100);
   border-radius: var(--radius-card);
   box-shadow:
-    0 6px 0 var(--pink-200),
-    0 26px 50px -18px rgba(242, 88, 154, .38);
+    0 6px 0 var(--blue-200),
+    0 26px 50px -18px rgba(88, 160, 242, .38);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
 }
@@ -117,8 +117,8 @@ button { cursor: pointer; }
 .title-sm { font-size: clamp(1.7rem, 6.2vw, 2.4rem); margin-top: 4px; }
 
 .name {
-  color: var(--pink-600);
-  background: linear-gradient(transparent 62%, var(--pink-200) 62% 92%, transparent 92%);
+  color: var(--blue-600);
+  background: linear-gradient(transparent 62%, var(--blue-200) 62% 92%, transparent 92%);
   padding: 0 .12em;
 }
 
@@ -176,28 +176,28 @@ button { cursor: pointer; }
   user-select: none;
   transition: background-color .2s, box-shadow .2s, color .2s, border-color .2s;
 }
-.btn:focus-visible { outline: 4px solid rgba(242, 88, 154, .4); outline-offset: 3px; }
+.btn:focus-visible { outline: 4px solid rgba(88, 160, 242, .4); outline-offset: 3px; }
 
 .btn-yes {
-  color: #fff;
-  background: linear-gradient(180deg, #ff6fa9 0%, var(--pink-600) 100%);
-  border-color: var(--pink-600);
-  box-shadow: 0 6px 0 var(--pink-700), 0 14px 22px -8px rgba(222, 58, 127, .55);
+  color: #ffffff;
+  background: linear-gradient(180deg, #6fb2ff 0%, var(--blue-600) 100%);
+  border-color: var(--blue-600);
+  box-shadow: 0 6px 0 var(--blue-700), 0 14px 22px -8px rgba(58, 135, 222, .55);
   text-shadow: 0 1px 0 rgba(0, 0, 0, .12);
   transform: translateY(var(--lift, 0)) scale(var(--s, 1));
   transition: transform .35s var(--ease-pop), box-shadow .2s, filter .2s;
 }
 .btn-yes:hover  { --lift: -3px; filter: brightness(1.05); }
-.btn-yes:active { --lift: 4px; box-shadow: 0 2px 0 var(--pink-700), 0 6px 12px -6px rgba(222, 58, 127, .55); }
+.btn-yes:active { --lift: 4px; box-shadow: 0 2px 0 var(--blue-700), 0 6px 12px -6px rgba(58, 135, 222, .55); }
 
 .btn-no {
-  color: var(--pink-600);
-  background: #fff;
-  border-color: var(--pink-300);
-  box-shadow: 0 6px 0 var(--pink-200);
+  color: var(--blue-600);
+  background: #ffffff;
+  border-color: var(--blue-300);
+  box-shadow: 0 6px 0 var(--blue-200);
   padding-inline: 30px;
 }
-.btn-no:hover { background: var(--pink-50); border-color: var(--pink-400); }
+.btn-no:hover { background: var(--blue-50); border-color: var(--blue-400); }
 
 /* Slot menjaga ruang tombol NO saat dia kabur */
 .no-slot { display: inline-block; }
@@ -216,25 +216,25 @@ button { cursor: pointer; }
 .btn-block { width: 100%; margin-top: 8px; }
 .btn-ghost {
   margin-top: 14px;
-  color: var(--pink-600);
-  background: #fff;
-  border-color: var(--pink-300);
-  box-shadow: 0 5px 0 var(--pink-200);
+  color: var(--blue-600);
+  background: #ffffff;
+  border-color: var(--blue-300);
+  box-shadow: 0 5px 0 var(--blue-200);
 }
-.btn-ghost:hover { background: var(--pink-50); }
-.btn-ghost:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--pink-200); }
+.btn-ghost:hover { background: var(--blue-50); }
+.btn-ghost:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--blue-200); }
 
 .btn-wa {
   margin-top: 4px;
-  color: #fff;
-  background: linear-gradient(180deg, #ff7db3 0%, var(--pink-500) 100%);
-  border-color: var(--pink-500);
-  box-shadow: 0 6px 0 var(--pink-700), 0 14px 22px -8px rgba(222, 58, 127, .5);
+  color: #ffffff;
+  background: linear-gradient(180deg, #7dbaff 0%, var(--blue-500) 100%);
+  border-color: var(--blue-500);
+  box-shadow: 0 6px 0 var(--blue-700), 0 14px 22px -8px rgba(58, 135, 222, .5);
   font-size: clamp(1.05rem, 4.4vw, 1.25rem);
   padding-inline: 20px;
 }
 .btn-wa:hover  { filter: brightness(1.05); transform: translateY(-2px); }
-.btn-wa:active { transform: translateY(4px); box-shadow: 0 2px 0 var(--pink-700); }
+.btn-wa:active { transform: translateY(4px); box-shadow: 0 2px 0 var(--blue-700); }
 
 /* ---------- Maskot cangkir ---------- */
 .mascot {
@@ -243,15 +243,15 @@ button { cursor: pointer; }
   overflow: visible;
   animation: bob 3.2s ease-in-out infinite;
 }
-.m-cup    { fill: #ffc4dc; stroke: var(--pink-400); stroke-width: 3.5; stroke-linejoin: round; }
-.m-rim    { fill: var(--pink-400); }
-.m-handle { stroke: var(--pink-400); }
-.m-saucer { fill: var(--pink-200); }
+.m-cup    { fill: #c4e0ff; stroke: var(--blue-400); stroke-width: 3.5; stroke-linejoin: round; }
+.m-rim    { fill: var(--blue-400); }
+.m-handle { stroke: var(--blue-400); }
+.m-saucer { fill: var(--blue-200); }
 .m-eye    { fill: var(--ink); }
-.m-cheek  { fill: #ff8fba; opacity: .55; }
+.m-cheek  { fill: #8fc3ff; opacity: .55; }
 .m-smile  { stroke: var(--ink); }
 .steam path {
-  stroke: var(--pink-300);
+  stroke: var(--blue-300);
   stroke-dasharray: 60;
   animation: steam 2.6s ease-in-out infinite;
 }
@@ -277,10 +277,10 @@ button { cursor: pointer; }
 /* ---------- Kalender ---------- */
 .calendar {
   padding: 12px clamp(6px, 2.4vw, 14px) 14px;
-  background: var(--pink-25);
-  border: 3px solid var(--pink-100);
+  background: var(--blue-25);
+  border: 3px solid var(--blue-100);
   border-radius: 28px;
-  box-shadow: inset 0 0 0 2px #fff;
+  box-shadow: inset 0 0 0 2px #ffffff;
 }
 .calendar.shake { animation: shake .45s; }
 
@@ -303,18 +303,18 @@ button { cursor: pointer; }
   width: 44px;
   height: 44px;
   padding: 0;
-  color: var(--pink-600);
-  background: var(--pink-100);
+  color: var(--blue-600);
+  background: var(--blue-100);
   border: 0;
   border-radius: 50%;
   transition: background-color .2s, transform .2s var(--ease-pop), opacity .2s;
   touch-action: manipulation;
 }
 .cal-nav svg { width: 20px; height: 20px; }
-.cal-nav:hover:not(:disabled) { background: var(--pink-200); transform: scale(1.08); }
+.cal-nav:hover:not(:disabled) { background: var(--blue-200); transform: scale(1.08); }
 .cal-nav:active:not(:disabled) { transform: scale(.92); }
 .cal-nav:disabled { opacity: .35; cursor: not-allowed; }
-.cal-nav:focus-visible { outline: 3px solid rgba(242, 88, 154, .45); outline-offset: 2px; }
+.cal-nav:focus-visible { outline: 3px solid rgba(88, 160, 242, .45); outline-offset: 2px; }
 
 .cal-week, .cal-grid {
   display: grid;
@@ -327,7 +327,7 @@ button { cursor: pointer; }
   font-weight: 800;
   letter-spacing: .04em;
   text-transform: uppercase;
-  color: var(--pink-500);
+  color: var(--blue-500);
 }
 
 .day {
@@ -346,14 +346,14 @@ button { cursor: pointer; }
   touch-action: manipulation;
   transition: background-color .15s, transform .2s var(--ease-pop), color .15s;
 }
-.day:hover:not(:disabled):not(.is-selected) { background: var(--pink-100); transform: scale(1.1); }
-.day:focus-visible { outline: 3px solid rgba(242, 88, 154, .5); outline-offset: 1px; }
-.day:disabled { color: #dfbccd; background: transparent; cursor: not-allowed; text-decoration: line-through; text-decoration-color: rgba(222, 58, 127, .22); }
-.day.is-today:not(.is-selected) { border: 2px dashed var(--pink-400); }
+.day:hover:not(:disabled):not(.is-selected) { background: var(--blue-100); transform: scale(1.1); }
+.day:focus-visible { outline: 3px solid rgba(88, 160, 242, .5); outline-offset: 1px; }
+.day:disabled { color: #bcccdf; background: transparent; cursor: not-allowed; text-decoration: line-through; text-decoration-color: rgba(58, 135, 222, .22); }
+.day.is-today:not(.is-selected) { border: 2px dashed var(--blue-400); }
 .day.is-selected {
-  color: #fff;
-  background: linear-gradient(180deg, #ff6fa9, var(--pink-600));
-  box-shadow: 0 4px 0 var(--pink-700);
+  color: #ffffff;
+  background: linear-gradient(180deg, #6fb2ff, var(--blue-600));
+  box-shadow: 0 4px 0 var(--blue-700);
   animation: pick-pop .4s var(--ease-pop);
 }
 .cal-spacer { visibility: hidden; }
@@ -383,19 +383,19 @@ button { cursor: pointer; }
   font-weight: 600;
   font-size: 1.2rem;
   letter-spacing: .04em;
-  color: var(--pink-700);
-  background: var(--pink-100);
-  border: 2px dashed var(--pink-300);
+  color: var(--blue-700);
+  background: var(--blue-100);
+  border: 2px dashed var(--blue-300);
   border-radius: 999px;
 }
-.picked-value.is-empty { color: #cf8fae; }
+.picked-value.is-empty { color: #8fadcf; }
 .picked-value.bump { animation: pick-pop .4s var(--ease-pop); }
 
 .msg {
   min-height: 1.4em;
   margin: 10px 0 8px;
   font-size: .95rem;
-  color: var(--pink-700);
+  color: var(--blue-700);
 }
 
 /* ---------- Halaman konfirmasi ---------- */
@@ -411,23 +411,23 @@ button { cursor: pointer; }
   flex-direction: column;
   gap: 2px;
   padding: 12px 16px;
-  background: var(--pink-50);
-  border: 2px dashed var(--pink-200);
+  background: var(--blue-50);
+  border: 2px dashed var(--blue-200);
   border-radius: 20px;
 }
 .details span   { font-size: .88rem; color: var(--ink-soft); }
-.details strong { font-family: var(--font-display); font-weight: 600; font-size: 1.45rem; color: var(--pink-700); }
+.details strong { font-family: var(--font-display); font-weight: 600; font-size: 1.45rem; color: var(--blue-700); }
 
 .contact {
   margin: 0 0 18px;
   padding: 14px 16px;
-  background: linear-gradient(180deg, #fff, var(--pink-50));
-  border: 3px solid var(--pink-100);
+  background: linear-gradient(180deg, #ffffff, var(--blue-50));
+  border: 3px solid var(--blue-100);
   border-radius: 22px;
 }
 .contact-name { font-family: var(--font-display); font-weight: 600; font-size: 1.3rem; color: var(--ink); }
 .contact-wa   { margin-top: 2px; color: var(--ink-soft); }
-.contact-wa strong { color: var(--pink-700); letter-spacing: .03em; }
+.contact-wa strong { color: var(--blue-700); letter-spacing: .03em; }
 
 /* ---------- Dekorasi latar ---------- */
 .deco {
@@ -439,7 +439,7 @@ button { cursor: pointer; }
 }
 .deco .d {
   position: absolute;
-  color: var(--c, var(--pink-300));
+  color: var(--c, var(--blue-300));
   opacity: .8;
   animation: drift var(--dur, 7s) ease-in-out var(--delay, 0s) infinite;
 }
@@ -469,7 +469,7 @@ button { cursor: pointer; }
   top: 38%;
   width: var(--sz, 18px);
   height: var(--sz, 18px);
-  color: var(--c, var(--pink-400));
+  color: var(--c, var(--blue-400));
   opacity: 0;
   animation: burst 1.7s cubic-bezier(.15, .7, .3, 1) var(--d, 0s) forwards;
 }
