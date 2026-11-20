@@ -1,5 +1,5 @@
 /* =========================================================
-   Ngupi Yuk, Saya Diva June! — logika interaksi
+   Ngupi Yuk, Sayya Diva June! — logika interaksi
    Bagian: konfigurasi · util · dekorasi · navigasi halaman ·
            tombol NO yang kabur · kalender · WhatsApp · confetti
    ========================================================= */
@@ -377,7 +377,7 @@
   function buildWaUrl(dateStr) {
     const text =
       'Halo Pemuda Babelan! 👋\n\n' +
-      'Saya Diva June, mau konfirmasi ajakan ngupi di Bekasi.\n\n' +
+      'Sayya Diva June, mau konfirmasi ajakan ngupi di Bekasi.\n\n' +
       `Tanggal pilihan: ${dateStr}\n\n` +
       'Gas ngupi! ☕';
     return `https://wa.me/${CONFIG.waNumber}?text=${encodeURIComponent(text)}`;
