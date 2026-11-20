@@ -17,7 +17,7 @@
       'Jarinya kurang gesit nih ✨',
       'Tombol NO-nya alergi disentuh 🤧',
       'Udah, nyerah aja. YES-nya nganggur tuh 😆',
-      'Kopinya keburu dingin lho, Za ☕',
+      'Kopinya keburu dingin lho, June ☕',
       'Gigih banget sih, sayang tenaganya 💪',
       'Tombol NO-nya lebih lincah dari kamu 😎',
       'Capek kan? YES aja yuk 🧋'
